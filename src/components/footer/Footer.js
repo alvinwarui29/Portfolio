@@ -1,7 +1,7 @@
 import "./Footer.css"
 
 import React from 'react'
-import  {FaHome, FaMailBulk, FaPhone} from "react-icons/fa"
+import  {FaFacebook, FaHome, FaInstagram, FaMailBulk, FaPhone, FaTwitter} from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -24,7 +24,19 @@ const Footer = () => {
                ask@gmail.com</h4>
             </div>
             </div>
-            <div className="right"></div>
+            <div className="right">
+                <h4>About Myself</h4>
+                <p>This is alvin warui. A very passionate react student.
+                Get in touch with me via the above availed details.
+                 </p>
+                 <div className="Social">
+                 <FaFacebook size={20} style={{color:"#fff",marginRight:"1rem"}}/>
+                 <FaTwitter size={20} style={{color:"#fff",marginRight:"1rem"}}/>
+                 <FaInstagram size={20} style={{color:"#fff",marginRight:"1rem"}}/>
+
+
+                 </div>
+            </div>
         </div>
     </div>
   )

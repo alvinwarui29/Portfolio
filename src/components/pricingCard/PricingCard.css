@@ -8,7 +8,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 40px;
+    grid-gap: 42px;
 }
 .card{
     border: 1px solid aquamarine;

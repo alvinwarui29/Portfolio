@@ -17,7 +17,7 @@
     z-index: -1;
 }
 .hero-img h1{
-    font-size: 2.4rem;
+    font-size: 3rem;
 }
 .hero-img p {
     font-size: 1.2rem;
@@ -32,6 +32,8 @@
     align-items: center;
 }
 @media screen and (max-width :640px) {
-    
+    .hero-img h1{
+        font-size: 2rem;
+    }
     
 }
